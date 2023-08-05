@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Download Form</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form id="downloadForm">
+        <label for="fileName">Enter File Link:</label>
+        <input
+          type="text"
+          id="fileName"
+          name="fileName"
+          placeholder="https://example.com/image.jpg"
+          required
+        />
+        <br /><br />
+        <button id="submitButton" type="submit">Download</button>
+      </form>
+      <div class="message hidden">
+        <p class="success">Your file has been downloaded</p>
+      </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
